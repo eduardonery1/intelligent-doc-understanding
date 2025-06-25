@@ -34,8 +34,8 @@ This project implements an end-to-end document processing API that combines OCR 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone [<repository-url>](https://github.com/eduardonery1/intelligent-doc-understanding.git)
+   cd intelligent-doc-understanding
    ```
 
 2. Create and activate a virtual environment:
