@@ -61,6 +61,10 @@ This project implements an end-to-end document processing API that combines OCR 
      ```bash
      python vector_store.py
      ```
+   - You all also download the generated data with git-lfs
+   ```bash
+     git lfs pull
+   ```
 
 ## API Usage
 
