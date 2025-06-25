@@ -34,8 +34,8 @@ This project implements an end-to-end document processing API that combines OCR 
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone [<repository-url>](https://github.com/eduardonery1/intelligent-doc-understanding.git)
+   cd intelligent-doc-understanding
    ```
 
 2. Create and activate a virtual environment:
@@ -56,11 +56,15 @@ This project implements an end-to-end document processing API that combines OCR 
    ```
 
 5. Prepare the vector database:
-   - Place your training documents in a `docs-sm` folder organized by document type (subfolders)
+   - Place your training documents in a `docs-sm` folder downloaded from this link https://www.kaggle.com/datasets/shaz13/real-world-documents-collections
    - Run the vector store builder:
      ```bash
      python vector_store.py
      ```
+   - You all also download the generated data with git-lfs
+   ```bash
+     git lfs pull
+   ```
 
 ## API Usage
 
