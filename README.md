@@ -34,7 +34,7 @@ This project implements an end-to-end document processing API that combines OCR 
 
 1. Clone the repository:
    ```bash
-   git clone [<repository-url>](https://github.com/eduardonery1/intelligent-doc-understanding.git)
+   git clone https://github.com/eduardonery1/intelligent-doc-understanding.git
    cd intelligent-doc-understanding
    ```
 
@@ -42,11 +42,11 @@ This project implements an end-to-end document processing API that combines OCR 
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
-   venv\Scripts\activate     # Windows
    ```
 
 3. Install dependencies:
    ```bash
+   conda install faiss-gpu
    pip install -r requirements.txt
    ```
 
