@@ -56,7 +56,7 @@ This project implements an end-to-end document processing API that combines OCR 
    ```
 
 5. Prepare the vector database:
-   - Place your training documents in a `docs-sm` folder organized by document type (subfolders)
+   - Place your training documents in a `docs-sm` folder downloaded from this link https://www.kaggle.com/datasets/shaz13/real-world-documents-collections
    - Run the vector store builder:
      ```bash
      python vector_store.py
