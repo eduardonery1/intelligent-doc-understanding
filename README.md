@@ -40,13 +40,12 @@ This project implements an end-to-end document processing API that combines OCR 
 
 2. Create and activate a virtual environment:
    ```bash
-   python -m venv venv
-   source venv/bin/activate  # Linux/Mac
+   conda create -n env python=3.10 pip faiss-gpu
+   conda activate env
    ```
 
 3. Install dependencies:
    ```bash
-   conda install faiss-gpu
    pip install -r requirements.txt
    ```
 
